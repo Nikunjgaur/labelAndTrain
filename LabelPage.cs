@@ -47,8 +47,6 @@ namespace labelAndTrain
 
                     //dataGridViewFiles.DataSource = imageFiles;
 
-
-
                     for (int i = 0; i < imageFiles.Length; i++)
                     {
                         try
@@ -61,7 +59,6 @@ namespace labelAndTrain
                             Label label = new Label();
                             label.imagePath = imageFiles[i].Name;
                             labels.Add(new Label(label));
-
 
                         }
                         catch (Exception ex)
